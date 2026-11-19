@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .landing-container {
+            background-color: #ffffff;
+            max-width: 450px;
+            width: 100%;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #222222;
+            font-size: 26px;
+            margin-bottom: 12px;
+        }
+        p {
+            color: #555555;
+            font-size: 15px;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        .signup-form input {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border: 1px solid #cccccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .signup-form button {
+            width: 100%;
+            padding: 13px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .signup-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="landing-container">
+        <h1>Grow Your Business Faster Today</h1>
+        <p>Join thousands of marketers using our platform to boost leads and sales effortlessly.</p>
+        
+        <form class="signup-form" action="#" method="POST">
+            <input type="text" name="fullname" placeholder="Enter your full name" required>
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+</body>
+</html>
